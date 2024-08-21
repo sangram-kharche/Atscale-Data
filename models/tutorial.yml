@@ -1,0 +1,61 @@
+unique_name: tutorial
+object_type: model
+label: tutorial
+metrics: []
+relationships:
+  - unique_name: customer_empty_dimension
+    from:
+      dataset: customer
+      join_columns: []
+    to:
+      dimension: ''
+      level: ''
+  - unique_name: lineitem_empty_dimension
+    from:
+      dataset: lineitem
+      join_columns: []
+    to:
+      dimension: ''
+      level: ''
+  - unique_name: nation_empty_dimension
+    from:
+      dataset: nation
+      join_columns: []
+    to:
+      dimension: ''
+      level: ''
+  - unique_name: orders_empty_dimension
+    from:
+      dataset: orders
+      join_columns: []
+    to:
+      dimension: ''
+      level: ''
+  - unique_name: supplier_empty_dimension
+    from:
+      dataset: supplier
+      join_columns: []
+    to:
+      dimension: ''
+      level: ''
+  - unique_name: region_empty_dimension
+    from:
+      dataset: region
+      join_columns: []
+    to:
+      dimension: ''
+      level: ''
+  - unique_name: partsupp_empty_dimension
+    from:
+      dataset: partsupp
+      join_columns: []
+    to:
+      dimension: ''
+      level: ''
+  - unique_name: part_empty_dimension
+    from:
+      dataset: part
+      join_columns: []
+    to:
+      dimension: ''
+      level: ''
