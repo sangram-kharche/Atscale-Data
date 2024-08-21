@@ -1,0 +1,6 @@
+unique_name: sl-ins-dummy
+object_type: catalog
+label: Insurance Claims
+as_version: 1.0
+aggressive_agg_promotion: false
+build_speculative_aggs: false
