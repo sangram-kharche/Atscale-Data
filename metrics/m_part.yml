@@ -1,0 +1,6 @@
+unique_name: m_part
+object_type: metric
+label: M Pa Rate
+calculation_method: sum
+column: colum name
+dataset: part

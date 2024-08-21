@@ -1,0 +1,6 @@
+unique_name: m_supplier
+object_type: metric
+label: M Supplier
+calculation_method: sum
+column: colum name
+dataset: supplier

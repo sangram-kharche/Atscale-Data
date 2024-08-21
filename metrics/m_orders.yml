@@ -1,0 +1,6 @@
+unique_name: m_orders
+object_type: metric
+label: M Orders
+calculation_method: sum
+column: colum name
+dataset: orders

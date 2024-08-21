@@ -1,0 +1,6 @@
+unique_name: m_lineitem
+object_type: metric
+label: M Line Item
+calculation_method: sum
+column: colum name
+dataset: lineitem
