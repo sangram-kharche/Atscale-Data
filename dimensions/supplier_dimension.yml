@@ -1,0 +1,6 @@
+unique_name: supplier_dimension
+object_type: dimension
+label: supplier_dimension
+hierarchies: []
+level_attributes: []
+type: standard

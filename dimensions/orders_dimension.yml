@@ -1,0 +1,6 @@
+unique_name: orders_dimension
+object_type: dimension
+label: orders_dimension
+hierarchies: []
+level_attributes: []
+type: standard

@@ -1,0 +1,12 @@
+unique_name: region
+object_type: dataset
+label: region
+columns:
+  - name: r_regionkey
+    data_type: long
+  - name: r_name
+    data_type: string
+  - name: r_comment
+    data_type: string
+connection_id: con_samples_tpch
+table: region

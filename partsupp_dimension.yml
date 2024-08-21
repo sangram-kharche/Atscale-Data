@@ -1,0 +1,6 @@
+unique_name: partsupp_dimension
+object_type: dimension
+label: partsupp_dimension
+hierarchies: []
+level_attributes: []
+type: standard

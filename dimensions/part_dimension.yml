@@ -1,0 +1,6 @@
+unique_name: part_dimension
+object_type: dimension
+label: part_dimension
+hierarchies: []
+level_attributes: []
+type: standard

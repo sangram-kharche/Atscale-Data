@@ -1,0 +1,6 @@
+unique_name: lineitem_dimension
+object_type: dimension
+label: lineitem_dimension
+hierarchies: []
+level_attributes: []
+type: standard

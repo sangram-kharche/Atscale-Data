@@ -1,0 +1,6 @@
+unique_name: customer_dimension
+object_type: dimension
+label: customer_dimension
+hierarchies: []
+level_attributes: []
+type: standard

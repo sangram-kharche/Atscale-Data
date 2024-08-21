@@ -1,0 +1,6 @@
+unique_name: nation_dimension
+object_type: dimension
+label: nation_dimension
+hierarchies: []
+level_attributes: []
+type: standard

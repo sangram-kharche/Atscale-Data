@@ -1,0 +1,6 @@
+unique_name: con_samples_tpch
+object_type: connection
+label: con_samples_tpch
+as_connection: Databricks
+database: samples
+schema: tpch

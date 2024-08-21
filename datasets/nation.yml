@@ -1,0 +1,14 @@
+unique_name: nation
+object_type: dataset
+label: nation
+columns:
+  - name: n_nationkey
+    data_type: long
+  - name: n_name
+    data_type: string
+  - name: n_regionkey
+    data_type: long
+  - name: n_comment
+    data_type: string
+connection_id: con_samples_tpch
+table: nation
