@@ -1,6 +1,0 @@
-unique_name: m_region
-object_type: metric
-label: M Region
-calculation_method: sum
-column: colum name
-dataset: region

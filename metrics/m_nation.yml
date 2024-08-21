@@ -1,6 +1,0 @@
-unique_name: m_nation
-object_type: metric
-label: M Nation
-calculation_method: sum
-column: colum name
-dataset: nation

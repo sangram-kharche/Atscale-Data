@@ -1,6 +1,0 @@
-unique_name: m_customer
-object_type: metric
-label: M Customer
-calculation_method: sum
-column: colum name
-dataset: customer

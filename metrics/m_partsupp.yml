@@ -2,5 +2,5 @@ unique_name: m_partsupp
 object_type: metric
 label: M Pa Rates Upp
 calculation_method: sum
-column: colum name
+column: ps_supplycost
 dataset: partsupp
