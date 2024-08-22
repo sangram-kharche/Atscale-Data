@@ -1,6 +1,19 @@
 unique_name: customer_dimension
 object_type: dimension
 label: customer_dimension
-hierarchies: []
-level_attributes: []
+hierarchies:
+  - unique_name: customer_dimension Hierarchy
+    label: customer_dimension Hierarchy
+    levels:
+      - unique_name: customer_dimension Level
+level_attributes:
+  - unique_name: customer_dimension Level
+    label: customer_dimension Level
+    contains_unique_names: false
+    dataset: customer
+    is_unique_key: true
+    key_columns:
+      - c_custkey
+    name_column: c_custkey
+    sort_column: c_custkey
 type: standard

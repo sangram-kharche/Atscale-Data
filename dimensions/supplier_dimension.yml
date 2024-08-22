@@ -1,6 +1,18 @@
 unique_name: supplier_dimension
 object_type: dimension
 label: supplier_dimension
-hierarchies: []
-level_attributes: []
+hierarchies:
+  - unique_name: supplier_dimension Hierarchy
+    label: supplier_dimension Hierarchy
+    levels:
+      - unique_name: supplier_dimension Level
+level_attributes:
+  - unique_name: supplier_dimension Level
+    label: supplier_dimension Level
+    contains_unique_names: false
+    dataset: supplier
+    is_unique_key: false
+    key_columns:
+      - s_suppkey
+    name_column: s_suppkey
 type: standard

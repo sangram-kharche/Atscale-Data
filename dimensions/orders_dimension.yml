@@ -1,6 +1,19 @@
 unique_name: orders_dimension
 object_type: dimension
 label: orders_dimension
-hierarchies: []
-level_attributes: []
+hierarchies:
+  - unique_name: orders_dimension Hierarchy
+    label: orders_dimension Hierarchy
+    levels:
+      - unique_name: orders_dimension Level
+level_attributes:
+  - unique_name: orders_dimension Level
+    label: orders_dimension Level
+    contains_unique_names: false
+    dataset: orders
+    is_unique_key: false
+    key_columns:
+      - o_orderkey
+      - o_custkey
+    name_column: o_orderkey
 type: standard

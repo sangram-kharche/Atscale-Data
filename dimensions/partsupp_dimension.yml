@@ -1,6 +1,19 @@
 unique_name: partsupp_dimension
 object_type: dimension
 label: partsupp_dimension
-hierarchies: []
-level_attributes: []
+hierarchies:
+  - unique_name: partsupp_dimension Hierarchy
+    label: partsupp_dimension Hierarchy
+    levels:
+      - unique_name: partsupp_dimension Level
+level_attributes:
+  - unique_name: partsupp_dimension Level
+    label: partsupp_dimension Level
+    contains_unique_names: false
+    dataset: partsupp
+    is_unique_key: false
+    key_columns:
+      - ps_partkey
+      - ps_suppkey
+    name_column: ps_partkey
 type: standard

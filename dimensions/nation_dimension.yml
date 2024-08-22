@@ -1,6 +1,18 @@
 unique_name: nation_dimension
 object_type: dimension
 label: nation_dimension
-hierarchies: []
-level_attributes: []
+hierarchies:
+  - unique_name: nation_dimension Hierarchy
+    label: nation_dimension Hierarchy
+    levels:
+      - unique_name: nation_dimension Level
+level_attributes:
+  - unique_name: nation_dimension Level
+    label: nation_dimension Level
+    contains_unique_names: false
+    dataset: nation
+    is_unique_key: false
+    key_columns:
+      - n_nationkey
+    name_column: n_nationkey
 type: standard

@@ -10,13 +10,6 @@ relationships:
     to:
       dimension: ''
       level: ''
-  - unique_name: lineitem_empty_dimension
-    from:
-      dataset: lineitem
-      join_columns: []
-    to:
-      dimension: ''
-      level: ''
   - unique_name: nation_empty_dimension
     from:
       dataset: nation
@@ -59,3 +52,19 @@ relationships:
     to:
       dimension: ''
       level: ''
+  - unique_name: empty_dataset_partsupp_dimension
+    from:
+      dataset: ''
+      join_columns: []
+    to:
+      dimension: partsupp_dimension
+      level: ''
+  - unique_name: lineitem_l_orderkey_to_orders_dimension_orders_dimension Level
+    from:
+      dataset: lineitem
+      join_columns:
+        - ''
+        - l_orderkey
+    to:
+      dimension: orders_dimension
+      level: orders_dimension Level
