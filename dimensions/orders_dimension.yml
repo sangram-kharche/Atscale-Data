@@ -6,6 +6,11 @@ hierarchies:
     label: orders_dimension Hierarchy
     levels:
       - unique_name: orders_dimension Level
+  - unique_name: Date Dimension
+    label: Date Dimension
+    levels:
+      - unique_name: Year
+      - unique_name: Quarter
 level_attributes:
   - unique_name: orders_dimension Level
     label: orders_dimension Level
@@ -16,4 +21,20 @@ level_attributes:
       - o_orderkey
       - o_custkey
     name_column: o_orderkey
+  - unique_name: Year
+    label: Year
+    contains_unique_names: false
+    dataset: orders
+    is_unique_key: false
+    key_columns:
+      - o_orderdate
+    name_column: o_orderdate
+  - unique_name: Quarter
+    label: Quarter
+    contains_unique_names: false
+    dataset: orders
+    is_unique_key: false
+    key_columns:
+      - o_orderdate
+    name_column: o_orderdate
 type: standard
