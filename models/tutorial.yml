@@ -17,13 +17,6 @@ relationships:
     to:
       dimension: ''
       level: ''
-  - unique_name: orders_empty_dimension
-    from:
-      dataset: orders
-      join_columns: []
-    to:
-      dimension: ''
-      level: ''
   - unique_name: supplier_empty_dimension
     from:
       dataset: supplier
@@ -68,3 +61,11 @@ relationships:
     to:
       dimension: orders_dimension
       level: orders_dimension Level
+  - unique_name: orders_o_orderdate_to_orders_dimension_Year
+    from:
+      dataset: orders
+      join_columns:
+        - o_orderdate
+    to:
+      dimension: orders_dimension
+      level: Year
